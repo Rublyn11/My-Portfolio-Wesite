@@ -92,11 +92,11 @@ span{
     color: var(--main-color);
 }
 .home-img img{
-    border-radius: 50%;
+    /* border-radius: 50%; */
     height: 80vh;
     width: 30vw;
     /* Animation is added after writing the javascript */
-    animation: floatImage 4s ease-in-out infinite;
+    /* animation: floatImage 4s ease-in-out infinite; */
 }
 /* The keyframe animation is written after the javascript*/
 @keyframes floatImage {
@@ -211,7 +211,7 @@ span{
 .services-container .services-box:hover{
     border-color: var(--main-color);
     transform: scale(1.02);
-    box-shadow: 5px 5px 5px 5px var(--main-color);
+    /* box-shadow: 5px 5px 5px 5px var(--main-color); */
 }
 .services-box i{
     font-size: 7rem;
@@ -466,12 +466,20 @@ span{
 }
 
 @media (max-width: 365px){
+    /* .home-img img {
+        height: 50vh;
+        width: 60vw;
+    } */
     .home-img img {
-        width: 90vw;
+        width: 85vw;
     }
     
+    /* .about-img img {
+        height: 50vh;
+        width: 60vw;
+    } */
     .about-img img {
-        width: 90vw;
+        width: 85vw;
     }
 
     .footer{
